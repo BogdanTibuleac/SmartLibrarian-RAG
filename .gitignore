@@ -1,0 +1,68 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+.venv*/
+env*/
+
+# -----------------------
+# Secrets & config
+# -----------------------
+.env
+*.env
+.env.*
+!*.example    # allow env.example
+
+# -----------------------
+# ChromaDB vector store
+# -----------------------
+app/rag/.chroma/
+
+# -----------------------
+# Node / Frontend
+# -----------------------
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+.cache/
+*.tsbuildinfo
+
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+*.log
+
+# -----------------------
+# IDEs & Editors
+# -----------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -----------------------
+# OS-specific files
+# -----------------------
+.DS_Store
+Thumbs.db

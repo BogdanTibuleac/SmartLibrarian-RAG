@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Ion – Liviu Rebreanu",
+        "summary": "Romanul „Ion” de Liviu Rebreanu este considerat primul roman realist obiectiv din literatura română și unul dintre cele mai importante romane interbelice. Tema principală este lupta pentru pământ. Ion al Glanetașului, personajul principal, este un țăran sărac care aspiră la îmbogățire și prestigiu social. Pentru a obține pământ, se căsătorește cu Ana, fiica lui Vasile Baciu, deși este îndrăgostit de Florica. Alte personaje semnificative sunt preotul Belciug, simbol al moralei, și George, soțul Floricăi. Ion este caracterizat prin ambiție, viclenie și determinare, dar sfârșește tragic, pedepsit de propriile alegeri. Romanul ilustrează conflictul între dorințele materiale și valorile morale.",
+        "themes": []
+    },
+    {
+        "title": "Moromeții – Marin Preda",
+        "summary": "„Moromeții” de Marin Preda este un roman social și psihologic care descrie destrămarea satului tradițional în perioada interbelică și postbelică. Ilie Moromete, protagonistul, este un țăran înțelept și ironic, aflat în conflict cu propriii săi copii, în special cu Niculae, care aspiră la educație și o viață modernă. Alte personaje importante sunt Catrina, soția lui Moromete, și vecinul Țugurlan. Romanul explorează tema autorității paterne, a conflictului dintre generații și degradarea valorilor rurale. Ilie Moromete este simbolul unei lumi în declin, marcat de umor, filosofie populară și reflecție asupra schimbării.",
+        "themes": [
+            "rural"
+        ]
+    },
+    {
+        "title": "Enigma Otiliei – George Călinescu",
+        "summary": "Romanul „Enigma Otiliei” de George Călinescu este o combinație de realism balzacian și influențe moderniste. Personajul principal, Felix Sima, un tânăr orfan care studiază medicina, este găzduit de unchiul său, Costache Giurgiuveanu, un bătrân avar. Otilia, fiica adoptivă a acestuia, este o fată enigmatică, inteligentă și capricioasă, care oscilează între inocență și maturitate. Alte personaje notabile sunt Aglae Tulea, sora lui Costache, și moșierul Leonida Pascalopol, protectorul Otiliei. Romanul urmărește maturizarea lui Felix și efortul de a înțelege lumea burgheză, plină de intrigi și interese materiale. Otilia rămâne o figură ambivalentă, simbolizând complexitatea feminină.",
+        "themes": []
+    },
+    {
+        "title": "O scrisoare pierdută – I.L. Caragiale",
+        "summary": "„O scrisoare pierdută” este o comedie politică scrisă de I.L. Caragiale, satirizând moravurile clasei politice din România secolului XIX. Personajele centrale sunt Zaharia Trahanache, lider politic local, și soția sa, Zoe, implicată într-o relație amoroasă cu adversarul politic Ștefan Tipătescu. Scrisoarea compromițătoare pierdută devine miza șantajului orchestrat de cetățeanul Turmentat și Nae Cațavencu, avocat ambițios care urmărește să obțină o funcție. Alte personaje includ Farfuridi și Brânzovenescu, caricaturi ale politicianului demagog. Comicul de situație, limbaj și caractere este folosit pentru a critica ipocrizia, corupția și incoerența discursului politic.",
+        "themes": [
+            "politică",
+            "comedie"
+        ]
+    },
+    {
+        "title": "Amintiri din copilărie – Ion Creangă",
+        "summary": "„Amintiri din copilărie” este o lucrare autobiografică narativă în care Ion Creangă își povestește copilăria trăită în Humulești. Personajul central este Nică a lui Ștefan a Petrei, o reprezentare a autorului în copilărie. Alte personaje importante sunt Smaranda, mama severă dar iubitoare, și bunicul David Creangă. Narațiunea include o serie de întâmplări haioase, precum scăldatul interzis, furatul cireșelor sau episodul cu pupăza. Nică este portretizat ca un copil curios, năzdrăvan și inteligent. Lucrarea surprinde lumea rurală arhaică, cu valorile și tradițiile sale, într-un stil viu, oral, plin de umor și nostalgie.",
+        "themes": [
+            "copilărie",
+            "rural"
+        ]
+    },
+    {
+        "title": "Moara cu noroc – Ioan Slavici",
+        "summary": "„Moara cu noroc” este o nuvelă realistă psihologică scrisă de Ioan Slavici, care abordează tema relației dintre om și avere. Personajul principal, Ghiță, un cârciumar ambițios, este atras de dorința de îmbogățire, ceea ce îl duce treptat la compromisuri morale și, în cele din urmă, la ruină. Naratorul omniscient urmărește degradarea interioară a personajului pe fundalul unui spațiu izolat, simbolic – hanul. Slavici construiește o atmosferă tensionată și explorează lăcomia, vina și destinul. Morala este clară: „Omul trebuie să fie mulțumit cu starea lui.”",
+        "themes": []
+    },
+    {
+        "title": "Maitreyi – Mircea Eliade",
+        "summary": "„Maitreyi” este un roman de dragoste exotic scris de Mircea Eliade, inspirat din experiențele sale reale în India. Povestea urmărește relația dintre Allan, un tânăr european, și Maitreyi, fiica profesorului său indian. Romanul explorează diferențele culturale, conflictul dintre rațional și spiritual, precum și imposibilitatea iubirii autentice într-un context marcat de bariere culturale și sociale. Limbajul liric și introspectiv accentuează dimensiunea filozofică și afectivă a textului. Este o reflecție asupra alterității și cunoașterii de sine.",
+        "themes": [
+            "dragoste"
+        ]
+    },
+    {
+        "title": "La țigănci – Mircea Eliade",
+        "summary": "„La țigănci” este o nuvelă fantastică de Mircea Eliade, ce explorează teme precum timpul mitic, inițierea și moartea. Profesorul Gavrilescu, protagonistul, se rătăcește într-un spațiu simbolic – grădina țigăncilor – unde realitatea se contopește cu visul. Trecerea timpului devine iluzorie, iar experiențele capătă sensuri esoterice. Lucrarea ilustrează teoria lui Eliade despre coincidentia oppositorum și despre funcția mitului în viața cotidiană. Finalul ambiguu susține dimensiunea metafizică a nuvelei.",
+        "themes": []
+    },
+    {
+        "title": "Jocul ielelor – Camil Petrescu",
+        "summary": "„Jocul ielelor” este o dramă psihologică scrisă de Camil Petrescu, care pune în lumină conflictul dintre ideal și realitate. Personajul central, Gelu Ruscanu, este un idealist care descoperă corupția și compromisurile sistemului politic. Drama este structurată în patru acte și evidențiază destrămarea convingerilor etice ale eroului. Petrescu folosește monologul interior, introspecția și dialogul dens pentru a construi o operă de idei, cu accente filozofice. Piesa reflectă frământările intelectuale ale omului modern confruntat cu limitele propriilor principii.",
+        "themes": []
+    },
+    {
+        "title": "Patul lui Procust – Camil Petrescu",
+        "summary": "„Patul lui Procust” este un roman modernist scris de Camil Petrescu, ce folosește tehnica jurnalului și a confesiunii pentru a analiza natura iubirii și a adevărului. Romanul este o frescă a societății interbelice, construită din perspective multiple. Personajele trăiesc dileme existențiale și caută autenticitatea într-o lume marcată de aparențe. Titlul face referire la mitul patului lui Procust, simbolizând încercarea de a reduce complexitatea vieții la tipare rigide. Romanul este considerat una dintre cele mai sofisticate explorări psihologice din literatura română.",
+        "themes": []
+    },
+    {
+        "title": "Ultima noapte de dragoste, întâia noapte de război – Camil Petrescu",
+        "summary": "Romanul modernist scris de Camil Petrescu este o explorare duală a dragostei și a războiului, prin prisma introspecției personajului Ștefan Gheorghidiu. Povestea este narată la persoana I și evidențiază zbuciumul interior al protagonistului în fața trădării soției și a absurdului experienței de pe front. Scriitura este densă, intelectualizată, și se remarcă prin monologul interior și analiza lucidă a emoțiilor. Cartea devine o meditație asupra valorilor, identității și lucidității în fața haosului lumii.",
+        "themes": [
+            "dragoste",
+            "război"
+        ]
+    },
+    {
+        "title": "Hanu Ancuței – Mihail Sadoveanu",
+        "summary": "„Hanu Ancuței” este un volum de nuvele în ramă scris de Mihail Sadoveanu, în care mai mulți povestitori își istorisesc aventurile într-un han moldovenesc. Atmosfera este una arhaică, cu puternice accente de basm și mitologie românească. Proza abundă în regionalisme, stil arhaic și descrieri pitorești. Fiecare povestire ilustrează o valoare tradițională: vitejia, onoarea, dragostea. Sadoveanu surprinde spiritul colectiv și înțelepciunea populară într-o manieră epică și evocatoare. Lucrarea este o celebrare a oralității și a patrimoniului cultural românesc.",
+        "themes": [
+            "dragoste"
+        ]
+    },
+    {
+        "title": "Baltagul – Mihail Sadoveanu",
+        "summary": "„Baltagul” este un roman simbolic scris de Mihail Sadoveanu, care urmează firul unei căutări inițiatice în stil baladesc. Vitoria Lipan, o femeie hotărâtă și credincioasă, pornește în căutarea soțului dispărut. Călătoria ei este presărată cu obstacole, dar și cu revelații, reflectând o viziune mitică asupra vieții și morții. Romanul este construit pe structura baladei populare și îmbină realismul cu lirismul. Vitoria devine un simbol al înțelepciunii și al legăturii omului cu natura și divinitatea.",
+        "themes": []
+    },
+    {
+        "title": "Povestea lui Harap Alb – Ion Creangă",
+        "summary": "„Povestea lui Harap Alb” este un basm cult scris de Ion Creangă, care îmbină elemente tradiționale cu originalitatea autorului. Eroul trece printr-o serie de probe inițiatice pentru a-și descoperi identitatea și a-și câștiga statutul de împărat. Creangă folosește umorul, oralitatea și ironia pentru a crea un text cu multiple niveluri de interpretare. Personajele sunt arhetipale, iar întâmplările fantastice sunt menite să sublinieze calitățile morale ale eroului. Basmul este o metaforă a maturizării și a devenirii.",
+        "themes": []
+    },
+    {
+        "title": "Cireșarii – Constantin Chiriță",
+        "summary": "„Cireșarii” este o serie de romane de aventuri pentru tineret scrisă de Constantin Chiriță. Grupul de adolescenți denumit „Cireșarii” trăiește experiențe pline de mister, curaj și prietenie. Seria combină suspansul cu educația morală, punând accent pe solidaritate, loialitate și descoperirea de sine. Fiecare volum abordează o aventură diferită, cu personaje recognoscibile și dialoguri alerte. Cărțile au fost extrem de populare în perioada comunistă și continuă să fascineze generațiile tinere prin dinamismul narativ și valorile promovate.",
+        "themes": []
+    }
+]
