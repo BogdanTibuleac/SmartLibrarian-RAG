@@ -6,8 +6,10 @@ from starlette.concurrency import run_in_threadpool
 from app.api.chat import router as chat_router
 from app.rag.chroma_setup import load_books_to_chroma
 from app.db.db import get_pool, close_pool 
+from app.api import feedback
 
 app = FastAPI(title="Smart Librarian RAG")
+app.include_router(feedback.router, prefix="/api/feedback", tags=["feedback"])
 
 # CORS for Vite
 app.add_middleware(

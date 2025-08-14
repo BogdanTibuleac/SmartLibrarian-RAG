@@ -35,6 +35,7 @@ async def cache_lookup_exact(prompt_norm: str) -> Optional[Dict[str, Any]]:
             SELECT output_format, output_data, model_name, generation_cost_usd, generated_at
             FROM qa_cache
             WHERE input_prompt_normalized = $1
+              AND liked IS TRUE
             """,
             prompt_norm,
         )
@@ -45,6 +46,7 @@ async def cache_lookup_exact(prompt_norm: str) -> Optional[Dict[str, Any]]:
                 SET retrieval_count = retrieval_count + 1,
                     last_accessed_at = now()
                 WHERE input_prompt_normalized = $1
+                  AND liked IS TRUE
                 """,
                 prompt_norm,
             )
@@ -60,7 +62,8 @@ async def cache_lookup_fuzzy(prompt_norm: str, threshold: float = 0.50) -> Optio
                    generation_cost_usd, generated_at,
                    similarity(input_prompt_normalized, $1) AS sim
             FROM qa_cache
-            WHERE input_prompt_normalized % $1
+            WHERE liked IS TRUE
+              AND input_prompt_normalized % $1
             ORDER BY sim DESC
             LIMIT 1
             """,
@@ -73,6 +76,7 @@ async def cache_lookup_fuzzy(prompt_norm: str, threshold: float = 0.50) -> Optio
                 SET retrieval_count = retrieval_count + 1,
                     last_accessed_at = now()
                 WHERE input_prompt_normalized = $1
+                  AND liked IS TRUE
                 """,
                 row["input_prompt_normalized"],
             )
@@ -93,15 +97,16 @@ async def cache_upsert(prompt_norm: str, *, output_format: str, output_data: str
             """
             INSERT INTO qa_cache (
               input_prompt_normalized, output_format, output_data,
-              model_name, generation_cost_usd, generated_at
+              model_name, generation_cost_usd, generated_at, liked
             )
-            VALUES ($1, $2, $3, $4, $5, now())
+            VALUES ($1, $2, $3, $4, $5, now(), NULL)
             ON CONFLICT (input_prompt_normalized) DO UPDATE
             SET output_format = EXCLUDED.output_format,
                 output_data   = EXCLUDED.output_data,
                 model_name    = EXCLUDED.model_name,
                 generation_cost_usd = EXCLUDED.generation_cost_usd,
                 generated_at  = EXCLUDED.generated_at,
+                liked         = NULL,                 -- reset on regeneration
                 last_accessed_at = now()
             """,
             prompt_norm, output_format, output_data, model_name, generation_cost_usd
