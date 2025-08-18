@@ -22,7 +22,7 @@ const BookLoader: React.FC = () => {
 
 
 
-            <p className="mt-3 text-slate-700 italic text-sm">Consulting the archives...</p>
+            <p className="mt-3 text-white italic text-sm">Consulting the archives...</p>
         </div>
     );
 };

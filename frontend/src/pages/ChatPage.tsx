@@ -58,10 +58,14 @@ const ChatPage: React.FC = () => {
                 backgroundBlendMode: "overlay",
             }}
         >
-            <div className="w-full max-w-5xl h-screen flex flex-col bg-white/90 backdrop-blur-sm shadow-2xl ring-1 ring-slate-300 rounded-xl overflow-hidden">
-                <header className="p-4 text-xl font-bold text-black border-b text-center shadow-sm bg-white/80 backdrop-blur-md">
-                    Smart Librarian
+            <div className="relative w-full max-w-5xl h-screen flex flex-col bg-white/20 backdrop-blur-md shadow-2xl ring-1 ring-white/20 rounded-xl overflow-hidden">
+                <header className="absolute inset-x-0 top-0 z-20 h-14 flex items-center justify-center bg-white/5 backdrop-blur-md border-b border-white/10">
+                    <h1 className="text-white text-2xl font-bold tracking-wide drop-shadow">
+                        Smart Librarian
+                    </h1>
                 </header>
+
+
 
                 <ChatHistory messages={messages} />
 

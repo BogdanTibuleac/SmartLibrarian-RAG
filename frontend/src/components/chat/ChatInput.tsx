@@ -19,10 +19,13 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSend, loading }) => {
     return (
         <form
             onSubmit={handleSubmit}
-            className="flex items-center gap-3 border-t border-slate-200 p-4 bg-white/80 backdrop-blur-md"
+            className="flex items-center gap-3 border-t border-slate-200 p-4 bg-transparent backdrop-blur-lg"
         >
             <input
-                className="flex-grow px-4 py-2 rounded-md border border-slate-300 bg-slate-100 text-slate-800 placeholder-slate-500 shadow-inner focus:outline-none focus:ring-2 focus:ring-slate-400 focus:border-slate-400 transition font-serif"
+                className={`flex-grow px-4 py-2 rounded-full border border-slate-300 text-slate-800 placeholder-slate-600 shadow-inner focus:outline-none focus:ring-2 focus:ring-slate-400 transition font-serif backdrop-blur-sm ${input.length > 0
+                    ? "bg-white/70"
+                    : "bg-white/20 focus:bg-white/70"
+                    }`}
                 type="text"
                 placeholder="Scrie o întrebare despre o carte..."
                 value={input}
@@ -32,9 +35,13 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSend, loading }) => {
             <button
                 type="submit"
                 disabled={loading}
-                className="bg-slate-700 text-white px-5 py-2 rounded-md font-medium hover:bg-slate-800 transition disabled:opacity-50"
+                className="flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-r from-slate-700 to-slate-900 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-200 disabled:opacity-50 disabled:scale-100"
             >
-                Trimite
+                <img
+                    src="/send.png"
+                    alt="Trimite"
+                    className="w-5 h-5 invert"
+                />
             </button>
         </form>
     );

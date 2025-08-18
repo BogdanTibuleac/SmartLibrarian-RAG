@@ -6,7 +6,7 @@ interface Message {
     sender: "user" | "assistant";
     content: string;
     promptNorm?: string;
-    isImage?: boolean;               // <-- NEW
+    isImage?: boolean;
 }
 
 interface ChatHistoryProps {

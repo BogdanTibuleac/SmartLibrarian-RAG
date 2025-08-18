@@ -90,8 +90,10 @@ def extract_author(q: str) -> str | None:
         return None
     return unidecode(m.group(1)).strip().lower()
 
+
 def norm(s: str) -> str:
     return unidecode((s or "").strip().lower())
+
 
 @router.post("/")
 async def get_book_recommendation(query: str = Body(..., embed=True)):
